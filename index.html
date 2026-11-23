@@ -1,0 +1,1335 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>白丝小学校服_校园影像社区_记录少年时光的温暖视频品牌</title>
+<meta name="description" content="白丝小学校服官方网站，专注校园生活影像与少年成长记录的视频品牌，汇聚原创高清校园视频、创作者社区与企业动态，打造值得信赖的内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232f6f5b'/%3E%3Cpath d='M32 14l4 10h11l-9 7 3 11-9-7-9 7 3-11-9-7h11z' fill='%23f4e6c8'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bx-ink:#22302b;
+  --bx-deep:#2f6f5b;
+  --bx-deep-2:#3f8a72;
+  --bx-moss:#7ba36a;
+  --bx-earth:#a98b63;
+  --bx-cream:#f7f3e9;
+  --bx-sand:#efe6d2;
+  --bx-line:#d9d0bd;
+  --bx-muted:#6c7a72;
+  --bx-card:#fffdf6;
+  --bx-warn:#c0763f;
+  --bx-radius:16px;
+  --bx-shadow:0 12px 30px rgba(47,111,91,.12);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  color:var(--bx-ink);
+  background:
+    radial-gradient(1200px 500px at 90% -10%, #e5eddc 0%, transparent 60%),
+    radial-gradient(900px 480px at -10% 30%, #f3ead6 0%, transparent 55%),
+    var(--bx-cream);
+  line-height:1.75;
+  font-size:16px;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700;}
+p{margin:0;}
+ul,ol{margin:0;padding:0;list-style:none;}
+.bx-wrap{max-width:1180px;margin:0 auto;padding:0 20px;}
+.bx-anchor-offset{scroll-margin-top:132px;}
+#bx-top{scroll-margin-top:132px;}
+
+/* ===== 吸顶：公告条 + 页头 ===== */
+.bx-stick{
+  position:sticky;top:0;z-index:80;
+  background:rgba(247,243,233,.96);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--bx-line);
+}
+.bx-notice{
+  background:linear-gradient(90deg,var(--bx-deep),var(--bx-moss));
+  color:#f6f1e3;
+  font-size:13.5px;
+  letter-spacing:.2px;
+}
+.bx-notice .bx-wrap{
+  display:flex;align-items:center;gap:12px;
+  min-height:38px;padding-top:6px;padding-bottom:6px;
+  overflow:hidden;
+}
+.bx-notice-tag{
+  flex:0 0 auto;
+  background:rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.35);
+  padding:1px 9px;border-radius:999px;font-size:12px;
+}
+.bx-notice-track{flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.bx-notice-track b{font-weight:700;color:#fff4d8;}
+.bx-notice-link{flex:0 0 auto;border-bottom:1px dashed rgba(255,255,255,.6);font-size:12.5px;}
+
+.bx-header{padding:10px 0;}
+.bx-header-main{display:flex;align-items:center;gap:18px;}
+.bx-logo{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+.bx-logo-mark{
+  width:42px;height:42px;border-radius:12px;
+  background:linear-gradient(150deg,var(--bx-deep),var(--bx-moss));
+  display:grid;place-items:center;color:#f6efd9;font-weight:800;font-size:18px;
+  box-shadow:var(--bx-shadow);
+}
+.bx-logo-text b{display:block;font-size:17px;letter-spacing:.5px;}
+.bx-logo-text span{display:block;font-size:11.5px;color:var(--bx-muted);letter-spacing:1.6px;}
+.bx-nav{flex:1 1 auto;display:flex;justify-content:center;}
+.bx-nav ul{display:flex;gap:4px;flex-wrap:wrap;}
+.bx-nav a{
+  display:block;padding:7px 12px;border-radius:999px;font-size:14.5px;color:var(--bx-ink);
+  transition:background .2s,color .2s;
+}
+.bx-nav a:hover{background:rgba(47,111,91,.1);color:var(--bx-deep);}
+.bx-header-tools{display:flex;align-items:center;gap:8px;flex:0 0 auto;}
+.bx-search{
+  display:flex;align-items:center;gap:6px;
+  background:var(--bx-card);border:1px solid var(--bx-line);
+  border-radius:999px;padding:5px 6px 5px 14px;
+  box-shadow:0 2px 0 rgba(47,111,91,.06);
+}
+.bx-search input{
+  border:none;outline:none;background:transparent;width:150px;font-size:14px;color:var(--bx-ink);
+}
+.bx-search input::placeholder{color:#9aa79f;}
+.bx-search button{
+  background:var(--bx-deep);color:#f7f2e2;border-radius:999px;
+  padding:5px 14px;font-size:13.5px;
+}
+.bx-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  padding:9px 18px;border-radius:999px;font-size:14.5px;font-weight:600;
+  transition:transform .18s,box-shadow .18s,background .18s;
+}
+.bx-btn-primary{background:var(--bx-deep);color:#f8f3e2;box-shadow:0 8px 18px rgba(47,111,91,.28);}
+.bx-btn-primary:hover{transform:translateY(-2px);background:#285f4d;}
+.bx-btn-ghost{background:transparent;border:1.5px solid var(--bx-deep);color:var(--bx-deep);}
+.bx-btn-ghost:hover{background:rgba(47,111,91,.08);}
+.bx-btn-sand{background:var(--bx-sand);color:#5a4a30;border:1px solid var(--bx-line);}
+.bx-nav-toggle{
+  display:none;border:1px solid var(--bx-line);border-radius:12px;padding:8px 10px;
+  background:var(--bx-card);
+}
+.bx-nav-toggle span{display:block;width:20px;height:2px;background:var(--bx-ink);margin:4px 0;border-radius:2px;transition:.2s;}
+.bx-search-feedback{
+  font-size:13px;color:var(--bx-deep);
+  background:#e8f0e2;border:1px dashed var(--bx-moss);
+  border-radius:10px;padding:6px 12px;margin-top:8px;display:none;
+}
+.bx-search-feedback.show{display:block;}
+
+/* ===== HERO：居中大标题 + 宽幅主视觉 ===== */
+.bx-hero{padding:44px 0 26px;position:relative;}
+.bx-hero-head{text-align:center;max-width:900px;margin:0 auto;}
+.bx-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:13px;letter-spacing:2px;color:var(--bx-deep);
+  background:rgba(123,163,106,.16);border:1px solid rgba(123,163,106,.45);
+  border-radius:999px;padding:5px 16px;
+}
+.bx-hero h1{
+  font-size:clamp(38px,6vw,68px);letter-spacing:2px;margin:18px 0 10px;
+  color:var(--bx-ink);
+}
+.bx-hero h1 em{
+  font-style:normal;
+  background:linear-gradient(120deg,var(--bx-deep),var(--bx-moss));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.bx-hero-slogan{font-size:17.5px;color:#4d5b53;max-width:680px;margin:0 auto;}
+.bx-hero-visual{
+  margin-top:28px;border-radius:26px;overflow:hidden;
+  border:1px solid var(--bx-line);box-shadow:0 22px 48px rgba(47,111,91,.16);
+  position:relative;background:#e8e3d3;
+}
+.bx-hero-visual img{width:100%;aspect-ratio:16/7;object-fit:cover;}
+.bx-hero-badge{
+  position:absolute;left:22px;bottom:22px;
+  background:rgba(34,48,43,.82);color:#f6f0dc;
+  border-radius:14px;padding:12px 18px;font-size:13.5px;line-height:1.6;
+  max-width:min(420px,80%);
+  border:1px solid rgba(255,255,255,.16);
+}
+.bx-hero-badge b{color:#ffe9b0;}
+.bx-hero-stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;
+  margin-top:22px;
+}
+.bx-hero-stat{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:var(--bx-radius);
+  padding:16px 20px;box-shadow:0 6px 16px rgba(47,111,91,.07);
+  display:flex;flex-direction:column;gap:2px;
+}
+.bx-hero-stat b{font-size:27px;color:var(--bx-deep);letter-spacing:.5px;}
+.bx-hero-stat span{font-size:13px;color:var(--bx-muted);}
+.bx-hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px;}
+
+/* ===== 通用 section ===== */
+.bx-sec{padding:46px 0;}
+.bx-sec-alt{
+  background:linear-gradient(180deg,rgba(239,230,210,.55),rgba(247,243,233,0));
+  border-top:1px solid rgba(217,208,189,.7);
+  border-bottom:1px solid rgba(217,208,189,.7);
+}
+.bx-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:26px;}
+.bx-sec-head h2{
+  font-size:clamp(24px,3.4vw,34px);letter-spacing:1px;position:relative;padding-left:16px;
+}
+.bx-sec-head h2::before{
+  content:"";position:absolute;left:0;top:8px;bottom:8px;width:6px;border-radius:4px;
+  background:linear-gradient(180deg,var(--bx-deep),var(--bx-moss));
+}
+.bx-sec-head p{color:var(--bx-muted);font-size:14.5px;max-width:560px;}
+.bx-sec-head .bx-more{font-size:14px;color:var(--bx-deep);border-bottom:1px dashed var(--bx-moss);padding-bottom:1px;}
+
+/* ===== 焦点 + 列表 ===== */
+.bx-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:24px;minmax:0;}
+.bx-focus-main{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:22px;overflow:hidden;
+  box-shadow:var(--bx-shadow);display:flex;flex-direction:column;
+}
+.bx-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.bx-focus-body{padding:20px 22px 22px;}
+.bx-tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;}
+.bx-tag{
+  font-size:12px;padding:2px 10px;border-radius:999px;
+  background:rgba(123,163,106,.18);color:#3d5c45;border:1px solid rgba(123,163,106,.4);
+}
+.bx-tag--warm{background:rgba(192,118,63,.14);color:#8a5326;border-color:rgba(192,118,63,.35);}
+.bx-focus-body h3{font-size:22px;margin-bottom:8px;}
+.bx-focus-body p{font-size:14.5px;color:#4d5b53;}
+.bx-meta{display:flex;flex-wrap:wrap;gap:12px;font-size:13px;color:var(--bx-muted);margin-top:12px;}
+.bx-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;}
+.bx-act{
+  display:inline-flex;align-items:center;gap:5px;font-size:13px;
+  border:1px solid var(--bx-line);border-radius:999px;padding:4px 12px;background:#fdfbef;
+  transition:.18s;
+}
+.bx-act:hover{border-color:var(--bx-moss);background:#eef3e6;}
+.bx-act.on{background:var(--bx-deep);color:#f7f2e2;border-color:var(--bx-deep);}
+.bx-act.bx-heart.on{background:#c0763f;border-color:#c0763f;}
+
+.bx-list{display:flex;flex-direction:column;gap:12px;}
+.bx-list-item{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:14px;
+  padding:13px 16px;transition:.2s;
+}
+.bx-list-item:hover{transform:translateX(3px);border-color:var(--bx-moss);box-shadow:0 8px 18px rgba(47,111,91,.1);}
+.bx-list-item h4{font-size:15.5px;margin-bottom:4px;}
+.bx-list-item p{font-size:13px;color:var(--bx-muted);}
+.bx-list-item .bx-meta{margin-top:8px;font-size:12.5px;gap:10px;}
+
+/* ===== 视频三列卡片 ===== */
+.bx-video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.bx-vcard{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:18px;overflow:hidden;
+  box-shadow:0 8px 20px rgba(47,111,91,.08);display:flex;flex-direction:column;transition:.22s;
+}
+.bx-vcard:hover{transform:translateY(-4px);box-shadow:0 16px 30px rgba(47,111,91,.16);}
+.bx-vcard img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.bx-vcard-body{padding:15px 16px 17px;display:flex;flex-direction:column;gap:8px;flex:1 1 auto;}
+.bx-vcard-body h4{font-size:16px;}
+.bx-vcard-body p{font-size:13.2px;color:var(--bx-muted);flex:1 1 auto;}
+.bx-vcard .bx-meta{font-size:12.5px;gap:9px;margin-top:0;}
+
+/* ===== 创作者双列 ===== */
+.bx-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.bx-author{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:18px;
+  padding:18px 20px;display:flex;gap:15px;align-items:flex-start;
+  box-shadow:0 6px 16px rgba(47,111,91,.06);transition:.2s;
+}
+.bx-author:hover{border-color:var(--bx-moss);}
+.bx-avatar{
+  width:56px;height:56px;border-radius:50%;flex:0 0 auto;
+  display:grid;place-items:center;font-weight:700;font-size:20px;color:#fdf8ea;
+  box-shadow:inset 0 -6px 12px rgba(0,0,0,.12);
+}
+.bx-avatar.a1{background:linear-gradient(140deg,#2f6f5b,#7ba36a);}
+.bx-avatar.a2{background:linear-gradient(140deg,#a98b63,#d8b384);}
+.bx-avatar.a3{background:linear-gradient(140deg,#3f8a72,#a3c98f);}
+.bx-avatar.a4{background:linear-gradient(140deg,#c0763f,#e0a06a);}
+.bx-avatar.a5{background:linear-gradient(140deg,#4e6e8a,#8aa8be);}
+.bx-avatar.a6{background:linear-gradient(140deg,#6c7a72,#a7b3a9);}
+.bx-author-info{min-width:0;}
+.bx-author-info h4{font-size:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.bx-author-info h4 .bx-role{font-size:11.5px;font-weight:500;color:var(--bx-deep);background:rgba(47,111,91,.12);padding:1px 8px;border-radius:999px;}
+.bx-author-info p{font-size:13.3px;color:#4d5b53;margin-top:6px;}
+.bx-author-stats{display:flex;gap:14px;font-size:12.5px;color:var(--bx-muted);margin-top:8px;flex-wrap:wrap;}
+.bx-author-more{font-size:12.5px;color:var(--bx-deep);margin-top:8px;border-bottom:1px dashed var(--bx-moss);display:inline-block;}
+
+/* ===== 关键词解析 ===== */
+.bx-parse{background:var(--bx-card);border:1px solid var(--bx-line);border-radius:22px;padding:28px 30px;box-shadow:var(--bx-shadow);}
+.bx-parse h2{margin-bottom:16px;font-size:clamp(24px,3.2vw,32px);}
+.bx-parse h3{font-size:18px;margin:22px 0 8px;color:var(--bx-deep);}
+.bx-parse h3:first-of-type{margin-top:6px;}
+.bx-parse p{font-size:15px;color:#3f4c45;margin-bottom:10px;}
+.bx-parse .bx-quote{
+  border-left:4px solid var(--bx-moss);background:#f1f5ea;border-radius:0 12px 12px 0;
+  padding:12px 18px;margin:16px 0;font-size:14.5px;color:#42544a;
+}
+
+/* ===== 专题 ===== */
+.bx-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.bx-topic{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:18px;padding:20px;
+  display:flex;flex-direction:column;gap:10px;
+}
+.bx-topic .bx-status{font-size:12px;color:var(--bx-warn);}
+.bx-topic h4{font-size:17px;}
+.bx-topic p{font-size:13.4px;color:var(--bx-muted);}
+.bx-topic ul{display:flex;flex-direction:column;gap:8px;margin-top:4px;}
+.bx-topic li{font-size:13.2px;color:#45534c;padding-left:16px;position:relative;}
+.bx-topic li::before{content:"▲";position:absolute;left:0;top:0;font-size:9px;color:var(--bx-moss);}
+
+/* ===== 评价双列 ===== */
+.bx-review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.bx-review{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:16px;padding:16px 18px;
+}
+.bx-review-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.bx-review-head .bx-avatar{width:36px;height:36px;font-size:14px;}
+.bx-review-head b{font-size:14.5px;}
+.bx-review-head span{font-size:12px;color:var(--bx-muted);}
+.bx-review p{font-size:13.6px;color:#45534c;}
+.bx-stars{color:#c0763f;font-size:13px;letter-spacing:1px;margin-left:auto;}
+
+/* ===== 榜单 ===== */
+.bx-rank-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;}
+.bx-rank{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:18px;padding:18px 20px;
+}
+.bx-rank h4{font-size:16px;margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.bx-rank ol{display:flex;flex-direction:column;gap:10px;}
+.bx-rank li{display:flex;gap:10px;font-size:13.4px;color:#45534c;align-items:flex-start;}
+.bx-rank .bx-num{
+  flex:0 0 auto;width:22px;height:22px;border-radius:8px;display:grid;place-items:center;
+  font-size:12px;font-weight:700;background:#eef3e6;color:var(--bx-deep);
+}
+.bx-rank li:nth-child(1) .bx-num{background:var(--bx-deep);color:#fff3d5;}
+.bx-rank li:nth-child(2) .bx-num{background:var(--bx-moss);color:#fff8e6;}
+.bx-rank li:nth-child(3) .bx-num{background:var(--bx-earth);color:#fff8e6;}
+
+/* ===== FAQ ===== */
+.bx-faq{display:flex;flex-direction:column;gap:10px;}
+.bx-faq details{
+  background:var(--bx-card);border:1px solid var(--bx-line);border-radius:14px;padding:14px 18px;
+  transition:.2s;
+}
+.bx-faq details[open]{border-color:var(--bx-moss);box-shadow:0 8px 18px rgba(47,111,91,.1);}
+.bx-faq summary{font-size:15px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:10px;align-items:center;}
+.bx-faq summary::-webkit-details-marker{display:none;}
+.bx-faq summary::after{content:"+";font-size:19px;color:var(--bx-moss);font-weight:400;line-height:1;}
+.bx-faq details[open] summary::after{content:"−";}
+.bx-faq p{font-size:14px;color:#4d5b53;margin-top:10px;}
+
+/* ===== 动态时间线 ===== */
+.bx-timeline{display:flex;flex-direction:column;gap:0;position:relative;padding-left:26px;}
+.bx-timeline::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--bx-moss),var(--bx-sand));}
+.bx-tl-item{position:relative;padding:0 0 22px 0;}
+.bx-tl-item::before{content:"";position:absolute;left:-24px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--bx-deep);border:2px solid var(--bx-cream);box-shadow:0 0 0 2px var(--bx-moss);}
+.bx-tl-item b{font-size:13px;color:var(--bx-deep);letter-spacing:.5px;}
+.bx-tl-item h4{font-size:15.5px;margin:3px 0 4px;}
+.bx-tl-item p{font-size:13.4px;color:var(--bx-muted);}
+
+/* ===== 合作墙 ===== */
+.bx-partner-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+.bx-partner{
+  background:var(--bx-card);border:1px dashed var(--bx-line);border-radius:14px;
+  padding:18px 12px;text-align:center;font-size:14px;color:#51625a;font-weight:600;letter-spacing:.5px;
+  transition:.2s;
+}
+.bx-partner:hover{border-color:var(--bx-moss);background:#f2f6ec;color:var(--bx-deep);}
+.bx-partner span{display:block;font-size:11.5px;color:var(--bx-muted);font-weight:400;margin-top:4px;letter-spacing:0;}
+
+/* ===== 页脚 ===== */
+.bx-footer{
+  background:linear-gradient(160deg,#22302b,#2f6f5b 130%);
+  color:#dfe6dc;padding:48px 0 26px;margin-top:20px;
+}
+.bx-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:28px;}
+.bx-footer h4{font-size:15px;color:#f6efd9;margin-bottom:12px;letter-spacing:1px;}
+.bx-footer p,.bx-footer li{font-size:13.2px;color:#b9c8bd;line-height:2;}
+.bx-footer a:hover{color:#ffe9b0;}
+.bx-footer-logo{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.bx-footer-logo .bx-logo-mark{box-shadow:none;background:rgba(255,255,255,.14);}
+.bx-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.14);margin-top:30px;padding-top:16px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#9fb2a6;
+}
+
+/* ===== Toast ===== */
+.bx-toast{
+  position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);
+  background:#22302b;color:#f7f2e2;padding:11px 22px;border-radius:999px;
+  font-size:14px;box-shadow:0 12px 28px rgba(0,0,0,.28);
+  opacity:0;pointer-events:none;transition:.28s;z-index:200;
+}
+.bx-toast.show{opacity:1;transform:translate(-50%,0);}
+
+/* ===== Modal ===== */
+.bx-modal-mask{
+  position:fixed;inset:0;background:rgba(28,38,33,.55);backdrop-filter:blur(3px);
+  display:none;z-index:180;align-items:center;justify-content:center;padding:20px;
+}
+.bx-modal-mask.show{display:flex;}
+.bx-modal{
+  background:var(--bx-card);border-radius:20px;max-width:520px;width:100%;
+  padding:26px 28px;box-shadow:0 24px 60px rgba(0,0,0,.3);position:relative;max-height:86vh;overflow:auto;
+}
+.bx-modal h3{font-size:20px;color:var(--bx-deep);margin-bottom:10px;}
+.bx-modal p{font-size:14px;color:#4d5b53;}
+.bx-modal .bx-close{position:absolute;right:16px;top:12px;font-size:22px;color:var(--bx-muted);line-height:1;}
+.bx-modal .bx-field{margin-top:14px;display:flex;flex-direction:column;gap:6px;font-size:13.5px;color:#45534c;}
+.bx-modal input,.bx-modal textarea{
+  border:1px solid var(--bx-line);border-radius:10px;padding:9px 12px;font-size:14px;font-family:inherit;
+  outline:none;background:#fbf9f0;color:var(--bx-ink);
+}
+.bx-modal input:focus,.bx-modal textarea:focus{border-color:var(--bx-moss);}
+.bx-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;}
+.bx-share-row button{border:1px solid var(--bx-line);border-radius:999px;padding:7px 16px;font-size:13.5px;background:#fdfbef;}
+.bx-share-row button:hover{border-color:var(--bx-moss);color:var(--bx-deep);}
+
+/* ===== 回顶部 ===== */
+.bx-top-btn{
+  position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:14px;
+  background:var(--bx-deep);color:#f7f2e2;display:grid;place-items:center;font-size:19px;
+  box-shadow:0 10px 24px rgba(47,111,91,.4);opacity:0;pointer-events:none;transition:.25s;z-index:120;
+}
+.bx-top-btn.show{opacity:1;pointer-events:auto;}
+
+/* ===== 响应式 ===== */
+@media (max-width:1024px){
+  .bx-nav{display:none;}
+  .bx-nav.open{display:flex;position:absolute;left:0;right:0;top:100%;background:var(--bx-cream);border-bottom:1px solid var(--bx-line);padding:12px 20px;}
+  .bx-nav.open ul{flex-direction:column;width:100%;}
+  .bx-nav-toggle{display:block;}
+  .bx-header-main{position:relative;flex-wrap:wrap;}
+  .bx-nav{order:4;width:100%;}
+  .bx-focus-grid{grid-template-columns:1fr;}
+  .bx-video-grid,.bx-topic-grid,.bx-rank-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .bx-footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:720px){
+  .bx-hero-stats{grid-template-columns:1fr;}
+  .bx-video-grid,.bx-topic-grid,.bx-rank-grid,.bx-author-grid,.bx-review-grid,.bx-partner-grid{grid-template-columns:1fr;}
+  .bx-footer-grid{grid-template-columns:1fr;}
+  .bx-search input{width:104px;}
+  .bx-parse{padding:20px 18px;}
+  .bx-notice-track{font-size:12.5px;}
+  .bx-hero-badge{position:static;margin:0;border-radius:0;max-width:none;background:#22302b;}
+  .bx-hero-visual{display:flex;flex-direction:column;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ===== S1 公告条 + 页头（一体吸顶） ===== -->
+<div class="bx-stick">
+  <div class="bx-notice" role="region" aria-label="最新公告">
+    <div class="bx-wrap">
+      <span class="bx-notice-tag">官方发布</span>
+      <div class="bx-notice-track">
+        <b>11月22日更新：</b>「白丝小学校服」秋冬季校园影像企划正式上线 · 新增 12 条原创高清短片 · 校服穿搭共创挑战报名开启 · 创作者开放日报名倒计时
+      </div>
+      <a class="bx-notice-link" href="#bx-news">查看动态</a>
+    </div>
+  </div>
+  <header class="bx-header" id="bx-top">
+    <div class="bx-wrap bx-header-main">
+      <a class="bx-logo" href="#bx-top" aria-label="白丝小学校服官方网站首页">
+        <span class="bx-logo-mark">白</span>
+        <span class="bx-logo-text"><b>白丝小学校服</b><span>BAISI SCHOOL UNIFORM</span></span>
+      </a>
+      <nav class="bx-nav" id="bx-nav" aria-label="主导航">
+        <ul>
+          <li><a href="#bx-focus">焦点内容</a></li>
+          <li><a href="#bx-videos">视频专区</a></li>
+          <li><a href="#bx-parse">品牌解析</a></li>
+          <li><a href="#bx-topics">专题企划</a></li>
+          <li><a href="#bx-authors">创作者</a></li>
+          <li><a href="#bx-rank">榜单</a></li>
+          <li><a href="#bx-reviews">口碑</a></li>
+          <li><a href="#bx-news">企业动态</a></li>
+          <li><a href="#bx-faq">常见问题</a></li>
+        </ul>
+      </nav>
+      <div class="bx-header-tools">
+        <div class="bx-search" role="search">
+          <input type="search" id="bx-search-input" placeholder="搜索校服穿搭、校园故事" aria-label="站内搜索">
+          <button type="button" id="bx-search-btn">搜索</button>
+        </div>
+        <button class="bx-nav-toggle" id="bx-nav-toggle" aria-expanded="false" aria-controls="bx-nav" aria-label="展开导航">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="bx-btn bx-btn-primary" id="bx-contribute-top">投稿</button>
+      </div>
+    </div>
+    <div class="bx-wrap">
+      <div class="bx-search-feedback" id="bx-search-feedback" role="status" aria-live="polite"></div>
+    </div>
+  </header>
+</div>
+
+<main>
+
+<!-- ===== S2 品牌首屏 ===== -->
+<section class="bx-hero" aria-labelledby="bx-hero-title">
+  <div class="bx-wrap">
+    <div class="bx-hero-head">
+      <span class="bx-hero-eyebrow">官方网站 · 校园影像社区</span>
+      <h1 id="bx-hero-title"><em>白丝小学校服</em></h1>
+      <p class="bx-hero-slogan">用镜头记录少年与时装之间最朴素的关系——一套校服，一段成长的形状。</p>
+    </div>
+
+    <div class="bx-hero-visual">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 520'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23dfe9d4'/%3E%3Cstop offset='1' stop-color='%23f4ecd9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='520' fill='url(%23sky)'/%3E%3Ccircle cx='985' cy='96' r='54' fill='%23f7e2ac' opacity='.9'/%3E%3Cpath d='M0 400 L240 300 L430 360 L650 268 L880 340 L1080 260 L1200 300 L1200 520 L0 520 Z' fill='%237ba36a' opacity='.5'/%3E%3Cpath d='M0 452 L260 386 L520 430 L780 366 L1040 420 L1200 380 L1200 520 L0 520 Z' fill='%232f6f5b' opacity='.75'/%3E%3Crect x='122' y='214' width='300' height='220' rx='8' fill='%23efe6d2'/%3E%3Crect x='122' y='214' width='300' height='34' rx='8' fill='%23a98b63'/%3E%3Cg fill='%233f8a72'%3E%3Crect x='148' y='272' width='42' height='54' rx='4'/%3E%3Crect x='206' y='272' width='42' height='54' rx='4'/%3E%3Crect x='264' y='272' width='42' height='54' rx='4'/%3E%3Crect x='322' y='272' width='42' height='54' rx='4'/%3E%3Crect x='148' y='344' width='42' height='54' rx='4'/%3E%3Crect x='206' y='344' width='42' height='54' rx='4'/%3E%3Crect x='264' y='344' width='42' height='54' rx='4'/%3E%3Crect x='322' y='344' width='42' height='54' rx='4'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='640' cy='256' r='30' fill='%23e5c9a2'/%3E%3Cpath d='M600 300 Q640 274 680 300 L690 420 Q640 440 590 420 Z' fill='%23fbf7ec'/%3E%3Cpath d='M600 300 Q640 274 680 300 L676 330 Q640 312 604 330 Z' fill='%233f8a72'/%3E%3Cpath d='M618 420 L618 490 L636 490 L636 420 Z' fill='%232f6f5b'/%3E%3Cpath d='M648 420 L648 490 L666 490 L666 420 Z' fill='%232f6f5b'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='806' cy='268' r='28' fill='%23e5c9a2'/%3E%3Cpath d='M770 308 Q806 284 842 308 L850 418 Q806 434 762 418 Z' fill='%23fbf7ec'/%3E%3Cpath d='M770 308 Q806 284 842 308 L838 336 Q806 320 774 336 Z' fill='%233f8a72'/%3E%3Cpath d='M786 418 L786 484 L802 484 L802 418 Z' fill='%232f6f5b'/%3E%3Cpath d='M814 418 L814 484 L830 484 L830 418 Z' fill='%232f6f5b'/%3E%3C/g%3E%3Crect x='512' y='470' width='380' height='14' rx='7' fill='%23a98b63' opacity='.6'/%3E%3C/svg%3E" alt="白丝小学校服校园主视觉：教学楼前身穿白色校服的少年在操场散步" width="1200" height="520">
+      <div class="bx-hero-badge">
+        <b>秋冬季校园影像企划</b><br>
+        以真实课堂与放学路上为取景地，记录校服从布料变成记忆的全过程。
+      </div>
+    </div>
+
+    <div class="bx-hero-stats">
+      <div class="bx-hero-stat">
+        <b>1,860+</b>
+        <span>原创校园短片累计发布</span>
+      </div>
+      <div class="bx-hero-stat">
+        <b>320 万</b>
+        <span>校园影像月均播放量</span>
+      </div>
+      <div class="bx-hero-stat">
+        <b>4.9 / 5</b>
+        <span>创作者与家长社区口碑评分</span>
+      </div>
+    </div>
+
+    <div class="bx-hero-actions">
+      <a class="bx-btn bx-btn-primary" href="#bx-videos">观看精品内容</a>
+      <button class="bx-btn bx-btn-ghost" id="bx-contribute-hero">加入创作者</button>
+      <a class="bx-btn bx-btn-sand" href="#bx-parse">了解品牌理念</a>
+      <button class="bx-btn bx-btn-sand" id="bx-share-hero">分享本页</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S3 焦点内容 ===== -->
+<section class="bx-sec" id="bx-focus" aria-labelledby="bx-focus-title">
+  <div class="bx-wrap">
+    <div class="bx-sec-head bx-anchor-offset">
+      <h2 id="bx-focus-title">今日焦点 · 白丝小学校服的校园瞬间</h2>
+      <p>由官方编辑部与社区创作者共同筛选，聚焦校服在日常学习与生活里的真实状态。</p>
+      <a class="bx-more" href="#bx-videos">更多视频</a>
+    </div>
+
+    <div class="bx-focus-grid">
+      <article class="bx-focus-main">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23e9e4d2'/%3E%3Crect x='0' y='0' width='800' height='190' fill='%23cfdcc2'/%3E%3Crect x='56' y='64' width='300' height='300' rx='10' fill='%23fbf8ee'/%3E%3Crect x='56' y='64' width='300' height='42' rx='10' fill='%232f6f5b'/%3E%3Cg fill='%23a9c39a'%3E%3Crect x='84' y='136' width='60' height='52' rx='3'/%3E%3Crect x='164' y='136' width='60' height='52' rx='3'/%3E%3Crect x='244' y='136' width='60' height='52' rx='3'/%3E%3Crect x='84' y='208' width='60' height='52' rx='3'/%3E%3Crect x='164' y='208' width='60' height='52' rx='3'/%3E%3Crect x='244' y='208' width='60' height='52' rx='3'/%3E%3C/g%3E%3Ccircle cx='560' cy='188' r='34' fill='%23e6c8a1'/%3E%3Cpath d='M512 238 Q560 206 608 238 L620 390 Q560 412 500 390 Z' fill='%23ffffff'/%3E%3Cpath d='M512 238 Q560 206 608 238 L602 272 Q560 250 518 272 Z' fill='%233f8a72'/%3E%3Cpath d='M532 390 L532 450 L556 450 L556 390 Z' fill='%232f6f5b'/%3E%3Cpath d='M572 390 L572 450 L596 450 L596 390 Z' fill='%232f6f5b'/%3E%3Crect x='672' y='280' width='96' height='120' rx='8' fill='%23a98b63'/%3E%3Crect x='672' y='280' width='96' height='24' rx='8' fill='%237ba36a'/%3E%3C/svg%3E" alt="焦点视频封面：白丝小学校服在教室走廊的光影里，学生抱着书本走过窗边" width="800" height="450">
+        <div class="bx-focus-body">
+          <div class="bx-tag-row">
+            <span class="bx-tag">日常记录</span>
+            <span class="bx-tag">校园探索</span>
+            <span class="bx-tag bx-tag--warm">官方精品</span>
+          </div>
+          <h3>走廊尽头的那扇窗：一套校服穿过的四季</h3>
+          <p>我们把镜头架在教学楼三层的走廊，从春日新芽拍到冬日薄雾。同一件白丝小学校服，被不同年级的孩子穿出不同的褶皱与故事。这条 18 分钟的纪录短片，是本站近期最具影响力的原创内容之一。</p>
+          <div class="bx-meta">
+            <span>作者：林见山</span>
+            <span>播放 42.6 万</span>
+            <span>点赞 3.8 万</span>
+            <span>收藏 1.2 万</span>
+          </div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="38000">♡ 点赞 <b>3.8万</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-comment" data-target="焦点视频《走廊尽头的那扇窗》">💬 评论</button>
+            <button class="bx-act bx-copy" data-target="焦点视频《走廊尽头的那扇窗》">⧉ 复制链接</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="bx-list">
+        <article class="bx-list-item">
+          <h4>校服的第一颗扣子：一年级新生入学纪录</h4>
+          <p>从家长手中接过书包，到扣好白丝小学校服的第一颗扣子，三分钟讲清一个家庭的九月。</p>
+          <div class="bx-meta"><span>作者：周小满</span><span>播放 18.2 万</span><span>标签：亲子成长</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="9200">♡ 点赞 <b>9.2千</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《校服的第一颗扣子》">⧉ 复制链接</button>
+          </div>
+        </article>
+        <article class="bx-list-item">
+          <h4>面料里的答案：一间校服工坊的 72 小时</h4>
+          <p>走进合作制衣车间，看白丝小学校服如何从一卷棉布变成可以奔跑的校服。</p>
+          <div class="bx-meta"><span>作者：陈织</span><span>播放 26.4 万</span><span>标签：创作幕后</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="15400">♡ 点赞 <b>1.5万</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《面料里的答案》">⧉ 复制链接</button>
+          </div>
+        </article>
+        <article class="bx-list-item">
+          <h4>放学路上的四分钟：一条街的校服记忆</h4>
+          <p>街拍摄影师跟拍一个月，剪出放学路上最真实的四分钟，口碑持续走高。</p>
+          <div class="bx-meta"><span>作者：许一川</span><span>播放 31.8 万</span><span>标签：城市探索</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="21100">♡ 点赞 <b>2.1万</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《放学路上的四分钟》">⧉ 复制链接</button>
+          </div>
+        </article>
+        <article class="bx-list-item">
+          <h4>校服穿搭对照表：从周一晨会到周五社团</h4>
+          <p>五个场景、五套搭配，白丝小学校服的版型优势一次讲透，实用技巧向。</p>
+          <div class="bx-meta"><span>作者：沈知夏</span><span>播放 12.7 万</span><span>标签：实用技巧</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="6800">♡ 点赞 <b>6.8千</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《校服穿搭对照表》">⧉ 复制链接</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 关键词解析（M15 深度解析） ===== -->
+<section class="bx-sec bx-sec-alt" id="bx-parse" aria-labelledby="bx-parse-title">
+  <div class="bx-wrap">
+    <div class="bx-parse bx-anchor-offset">
+      <h2 id="bx-parse-title">白丝小学校服 · 品牌深度解析</h2>
+      <p>作为深耕校园服饰影像的垂直领域平台，白丝小学校服官方网站把这四个字拆成可被观看、可被讨论、可被讲述的内容结构。我们不只在解释一个词，更在解释一种被反复穿着的日常。</p>
+
+      <h3>一、为什么是「白丝小学校服」：一份被低估的日常档案</h3>
+      <p>在校园题材里，校服往往被当作背景板：它出现在毕业照的边角，出现在运动会看台，出现在晨读教室的玻璃反光里。但真正长期在校园里生活过的人知道，校服是少年时期穿着时间最长的衣物之一。白丝小学校服这一关键词，指向的不只是一件衣服的形态，更是一整套校园生活的节奏——早自习的温差、体育课后的汗湿、袖口的笔痕、领口被反复整理的折痕。</p>
+      <p>我们的编辑部把这个关键词定义为「日常档案型题材」。所谓档案，意味着可检索、可比较、可溯源。平台从 2023 年起累计整理了一千八百余条校园短片，每条都标注拍摄季节、年级、场景与穿搭方式，最终沉淀为可被检索的内容库。许多家长和老师在站内搜索时，输入的第一个词就是白丝小学校服，他们想看的并不是广告大片，而是别人家孩子怎么穿、怎么洗、怎么改。</p>
+      <p>这也决定了我们的内容策略：把宏观的校园议题拆成可执行的小问题。比如「校服外套该不该在教室内脱下」「白袜在体育课后如何快速清洁」「低年级与高年级的校服版型差异在哪里」。问题越具体，影像越有价值。这也是白丝小学校服作为内容关键词能稳定获得关注的根本原因：它自带生活细节，而细节正是视频最擅长捕捉的东西。</p>
+
+      <h3>二、从布料、版型到色彩：白丝小学校服的产品叙事</h3>
+      <p>白丝小学校服在视觉上最容易被记住的是干净的白色基底与克制的丝线质感。白色在校服语境里并不简单：它意味着高可见度的整洁要求，也意味着更容易被记住的集体形象。我们的合作工坊在布料选择上倾向高支棉与少量弹性纤维混纺，兼顾挺括与活动度，让校服在奔跑时不会过度拘束。丝线感的处理则体现在走线与包边，细微之处决定穿着者是否会愿意把它当作日常服装长期穿着。</p>
+      <p>版型方面，白丝小学校服采取分区放量的思路：肩部与袖窿留出活动余量，腰部不做过度收束，裤装膝部做加固处理。这样的设计在镜头里不会显得夸张，却能在体育课、放学奔跑、社团排练等场景中维持体面。色彩上以纯白、米白、浅灰为主，辅以低饱和的绿色或蓝色点缀，使整体在校园环境中既不喧宾夺主，也不会被背景吞没。</p>
+      <p>需要说明的是，白丝小学校服在平台语境中更多承担「主题锚点」的作用。我们并不把它当作单一商品来推广，而是把它作为观察校园生活方式的入口：一套校服能牵引出家庭、学校、社区三方的关系，也能牵引出关于审美教育、卫生习惯、身体自主的讨论。这种多义性，恰恰是视频内容最有张力的地方。</p>
+      <div class="bx-quote">「我们拍下的不是校服，是穿校服的人在那个年纪如何理解体面与自由。」——编辑部影像手记</div>
+
+      <h3>三、内容生态与社区：白丝小学校服如何持续产生好故事</h3>
+      <p>一个关键词要持续活着，必须有人不断为它添新内容。白丝小学校服官方网站的内容生态由三层构成：官方企划、签约创作者与社区投稿。官方企划负责确定季度主题，例如春季的「新学期第一周」、秋季的「校服换季指南」、冬季的「雪天里的白色」；签约创作者负责把主题落到具体场景；社区投稿则提供源源不断的生活切片。三层结构保证内容既有品质，也有数量。</p>
+      <p>社区运营上，我们坚持「真实优先」的原则。站内所有校园类视频需标注拍摄场景与授权情况，涉及未成年人的内容一律做隐私保护处理，不展示可识别身份的信息。这样的规则在短期内会牺牲一部分流量，但长期看换来了口碑与信任。许多老师愿意把班级活动素材授权给平台，正是因为这套规则透明、值得信赖。</p>
+      <p>为了让更多人参与，平台每季度举办一次白丝小学校服主题创作挑战，设置穿搭、纪录、访谈、手作四个赛道，鼓励创作者用不同方式讲述校服故事。投稿入口全年开放，评审由编辑部与社区共同投票，获奖作品会进入站内精品内容专区并获得首页推荐。我们相信，内容生态的活力来自持续的参与，而不是一次性的流量爆发。</p>
+
+      <h3>四、影像方法与观看礼仪：我们如何拍摄校园</h3>
+      <p>校园影像的拍摄有一套自己的方法。首先是光线，教室的侧窗光在上午九点到十点最柔和，能保留白色校服的层次而不过曝；其次是机位，我们倾向与视线齐平的机位，避免俯拍带来的审视感，让观看者与画面中的人处在平等位置；再次是声音，校园环境音（翻书、脚步声、远处铃声）往往比配乐更有力量。</p>
+      <p>观看礼仪同样重要。平台在每条视频下方提供内容说明，提醒观看者尊重画面中的普通人，不进行外貌评价与身份揣测。这条规则在评论区以置顶形式展示，并由社区志愿者共同维护。我们希望通过白丝小学校服这个主题，讨论的不只是审美，还有如何在公共平台上体面地观看他人。</p>
+      <p>最后是持续运营。校园题材有强烈的季节性，平台据此建立了年度内容日历：九月开学、十一月换季、一月考试周、六月毕业季。每个节点都有对应的企划与投稿征集，让内容生产有节奏、有预期。正是这种长期主义的运营方式，让白丝小学校服从一个词，变成一个可以被反复访问的内容空间。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 视频专区（三列卡片） ===== -->
+<section class="bx-sec" id="bx-videos" aria-labelledby="bx-videos-title">
+  <div class="bx-wrap">
+    <div class="bx-sec-head bx-anchor-offset">
+      <h2 id="bx-videos-title">视频专区 · 本周精选</h2>
+      <p>按内容方向划分的三列卡片，全部为原创正版高清内容，支持点赞、收藏与分享。</p>
+    </div>
+    <div class="bx-video-grid">
+
+      <article class="bx-vcard">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23dfe7d3'/%3E%3Crect x='0' y='250' width='640' height='110' fill='%23a9bf94'/%3E%3Crect x='240' y='60' width='160' height='200' rx='8' fill='%23fbf8ee'/%3E%3Crect x='240' y='60' width='160' height='28' rx='8' fill='%233f8a72'/%3E%3Ccircle cx='320' cy='210' r='26' fill='%23e6c8a1'/%3E%3Cpath d='M286 246 Q320 228 354 246 L358 300 Q320 312 282 300 Z' fill='%23ffffff'/%3E%3Cpath d='M286 246 Q320 228 354 246 L352 262 Q320 252 288 262 Z' fill='%232f6f5b'/%3E%3Crect x='70' y='228' width='60' height='76' rx='6' fill='%23a98b63'/%3E%3Crect x='510' y='228' width='60' height='76' rx='6' fill='%23a98b63'/%3E%3C/svg%3E" alt="视频卡片封面：白丝小学校服换季整理，学生在储物柜前叠放校服外套" width="640" height="360">
+        <div class="bx-vcard-body">
+          <div class="bx-tag-row"><span class="bx-tag">实用技巧</span><span class="bx-tag">家居收纳</span></div>
+          <h4>换季收纳：一份校服保养的完整清单</h4>
+          <p>从洗涤水温到晾晒角度，再到收纳袋的防潮选择，十分钟说完白丝小学校服的全套保养方法。</p>
+          <div class="bx-meta"><span>作者：沈知夏</span><span>播放 9.6 万</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="4600">♡ 点赞 <b>4.6千</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《换季收纳：一份校服保养的完整清单》">⧉ 复制</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="bx-vcard">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23d9e4ea'/%3E%3Cpath d='M0 250 Q160 200 320 250 T640 240 L640 360 L0 360 Z' fill='%237ba36a' opacity='.7'/%3E%3Ccircle cx='500' cy='90' r='38' fill='%23f5e3b4'/%3E%3Cg%3E%3Ccircle cx='200' cy='170' r='28' fill='%23e6c8a1'/%3E%3Cpath d='M166 206 Q200 186 234 206 L242 320 Q200 336 158 320 Z' fill='%23ffffff'/%3E%3Cpath d='M166 206 Q200 186 234 206 L231 230 Q200 216 169 230 Z' fill='%233f8a72'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='330' cy='182' r='24' fill='%23e6c8a1'/%3E%3Cpath d='M300 212 Q330 194 360 212 L366 316 Q330 330 294 316 Z' fill='%23fbf8ee'/%3E%3Cpath d='M300 212 Q330 194 360 212 L358 234 Q330 222 302 234 Z' fill='%23a98b63'/%3E%3C/g%3E%3C/svg%3E" alt="视频卡片封面：白丝小学校服户外活动，两名学生在校园草坪上并肩行走" width="640" height="360">
+        <div class="bx-vcard-body">
+          <div class="bx-tag-row"><span class="bx-tag">户外活动</span><span class="bx-tag">日常记录</span></div>
+          <h4>草坪上的二十分钟：课间操之外的校园</h4>
+          <p>镜头没有台词，只有风声、跑动声和笑声。白丝小学校服在户外光线下的质感被完整保留。</p>
+          <div class="bx-meta"><span>作者：许一川</span><span>播放 15.3 万</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="8700">♡ 点赞 <b>8.7千</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《草坪上的二十分钟》">⧉ 复制</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="bx-vcard">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23efe6d2'/%3E%3Crect x='60' y='46' width='520' height='230' rx='10' fill='%23fbf8ee'/%3E%3Crect x='60' y='46' width='520' height='30' rx='10' fill='%23a98b63'/%3E%3Crect x='96' y='106' width='150' height='110' rx='6' fill='%23cfdcc2'/%3E%3Crect x='270' y='106' width='130' height='16' rx='8' fill='%23c3cdb8'/%3E%3Crect x='270' y='136' width='220' height='10' rx='5' fill='%23dcd7c4'/%3E%3Crect x='270' y='156' width='180' height='10' rx='5' fill='%23dcd7c4'/%3E%3Crect x='270' y='176' width='200' height='10' rx='5' fill='%23dcd7c4'/%3E%3Crect x='96' y='236' width='392' height='10' rx='5' fill='%23dcd7c4'/%3E%3Ccircle cx='540' cy='300' r='30' fill='%233f8a72'/%3E%3C/svg%3E" alt="视频卡片封面：白丝小学校服设计手稿平铺在桌面上，旁边放着布料样板" width="640" height="360">
+        <div class="bx-vcard-body">
+          <div class="bx-tag-row"><span class="bx-tag">创作幕后</span><span class="bx-tag">艺术美学</span></div>
+          <h4>从手稿到样衣：校服设计的三次修改</h4>
+          <p>设计师在现场讲述了白丝小学校服版型调整的三个关键决定，以及为什么放弃了一个看起来很美的方案。</p>
+          <div class="bx-meta"><span>作者：陈织</span><span>播放 21.9 万</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="12600">♡ 点赞 <b>1.3万</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《从手稿到样衣：校服设计的三次修改》">⧉ 复制</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="bx-vcard">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23e4e9de'/%3E%3Crect x='0' y='0' width='640' height='150' fill='%23cfdcc2'/%3E%3Crect x='90' y='150' width='460' height='140' rx='10' fill='%23fbf8ee'/%3E%3Crect x='120' y='180' width='120' height='80' rx='5' fill='%23a9c39a'/%3E%3Crect x='270' y='184' width='240' height='14' rx='7' fill='%23c9d3bf'/%3E%3Crect x='270' y='212' width='200' height='10' rx='5' fill='%23dcd7c4'/%3E%3Crect x='270' y='232' width='220' height='10' rx='5' fill='%23dcd7c4'/%3E%3Ccircle cx='520' cy='292' r='24' fill='%23a98b63'/%3E%3C/svg%3E" alt="视频卡片封面：白丝小学校服的品牌访谈现场，讲述者在书架前接受采访" width="640" height="360">
+        <div class="bx-vcard-body">
+          <div class="bx-tag-row"><span class="bx-tag">人物访谈</span><span class="bx-tag">品牌故事</span></div>
+          <h4>十二年校服记忆：一位班主任的观察笔记</h4>
+          <p>她带过六届学生，记得每一届孩子对白丝小学校服的不同态度。这是一段温和而具体的访谈。</p>
+          <div class="bx-meta"><span>作者：周小满</span><span>播放 11.4 万</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="5900">♡ 点赞 <b>5.9千</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《十二年校服记忆》">⧉ 复制</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="bx-vcard">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23d8e2d0'/%3E%3Cpath d='M0 300 L180 210 L360 280 L540 200 L640 250 L640 360 L0 360 Z' fill='%237ba36a' opacity='.65'/%3E%3Crect x='220' y='80' width='200' height='150' rx='10' fill='%23fbf8ee'/%3E%3Crect x='220' y='80' width='200' height='26' rx='10' fill='%233f8a72'/%3E%3Ccircle cx='320' cy='170' r='30' fill='%23e6c8a1'/%3E%3Cpath d='M280 204 Q320 186 360 204 L366 260 Q320 274 274 260 Z' fill='%23ffffff'/%3E%3C/svg%3E" alt="视频卡片封面：白丝小学校服社团活动纪录，学生在音乐教室里排练" width="640" height="360">
+        <div class="bx-vcard-body">
+          <div class="bx-tag-row"><span class="bx-tag">音乐现场</span><span class="bx-tag">兴趣同好</span></div>
+          <h4>排练室的下午：校服与一首未完成的歌</h4>
+          <p>社团排练的真实记录，白丝小学校服在琴键与谱架之间，成为少年们最自然的制服。</p>
+          <div class="bx-meta"><span>作者：林见山</span><span>播放 7.8 万</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="3400">♡ 点赞 <b>3.4千</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《排练室的下午》">⧉ 复制</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="bx-vcard">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23ece2cc'/%3E%3Crect x='70' y='70' width='220' height='220' rx='10' fill='%23fbf8ee'/%3E%3Crect x='70' y='70' width='220' height='30' rx='10' fill='%23a98b63'/%3E%3Cg fill='%23cfdcc2'%3E%3Crect x='96' y='124' width='80' height='60' rx='4'/%3E%3Crect x='188' y='124' width='80' height='60' rx='4'/%3E%3Crect x='96' y='200' width='80' height='60' rx='4'/%3E%3Crect x='188' y='200' width='80' height='60' rx='4'/%3E%3C/g%3E%3Crect x='340' y='110' width='220' height='150' rx='10' fill='%23ffffff'/%3E%3Crect x='360' y='140' width='180' height='12' rx='6' fill='%23c9d3bf'/%3E%3Crect x='360' y='168' width='140' height='10' rx='5' fill='%23dcd7c4'/%3E%3Crect x='360' y='190' width='160' height='10' rx='5' fill='%23dcd7c4'/%3E%3Crect x='360' y='212' width='120' height='10' rx='5' fill='%23dcd7c4'/%3E%3C/svg%3E" alt="视频卡片封面：白丝小学校服的图文测评，桌上摆放校服与评分记录表" width="640" height="360">
+        <div class="bx-vcard-body">
+          <div class="bx-tag-row"><span class="bx-tag">深度测评</span><span class="bx-tag">经验分享</span></div>
+          <h4>六款白丝小学校服横向对照：版型与耐穿度</h4>
+          <p>用可量化指标逐项对照，给出不同年级与体型的选款建议，是本季度最实用的测评之一。</p>
+          <div class="bx-meta"><span>作者：陈织</span><span>播放 19.7 万</span></div>
+          <div class="bx-actions">
+            <button class="bx-act bx-like" data-base="10400">♡ 点赞 <b>1.0万</b></button>
+            <button class="bx-act bx-heart">♡ 收藏</button>
+            <button class="bx-act bx-copy" data-target="视频《六款白丝小学校服横向对照》">⧉ 复制</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 专题企划 ===== -->
+<section class="bx-sec bx-sec-alt" id="bx-topics" aria-labelledby="bx-topics-title">
+  <div class="bx-wrap">
+    <div class="bx-sec-head bx-anchor-offset">
+      <h2 id="bx-topics-title">专题企划 · 正在更新的白丝小学校服内容</h2>
+      <p>每个专题由官方编辑部统筹，联合多位创作者持续更新，形成可长期观看的内容序列。</p>
+    </div>
+    <div class="bx-topic-grid">
+
+      <article class="bx-topic">
+        <span class="bx-status">更新中 · 已发布 4 / 8 集</span>
+        <h4>四季校服影像集</h4>
+        <p>以春、夏、秋、冬为章节，记录白丝小学校服在同一座校园里的色彩变化与生活节奏。</p>
+        <ul>
+          <li>春日篇：新芽与第一件薄外套</li>
+          <li>夏日篇：短袖校服的午后教室</li>
+          <li>秋日篇：换季收纳与长袖回归</li>
+        </ul>
+      </article>
+
+      <article class="bx-topic">
+        <span class="bx-status">更新中 · 已发布 3 / 6 集</span>
+        <h4>校园创作者开放日</h4>
+        <p>邀请社区创作者走进校园与工坊，用不同视角拍摄白丝小学校服的真实细节。</p>
+        <ul>
+          <li>定格动画：一件校服的 24 小时</li>
+          <li>手作课堂：校服徽章的再创作</li>
+          <li>访谈：摄影师眼中的校园白</li>
+        </ul>
+      </article>
+
+      <article class="bx-topic">
+        <span class="bx-status">报名开启 · 12 月 20 日截止</span>
+        <h4>校服穿搭共创挑战</h4>
+        <p>面向所有社区成员开放的季度创作挑战，四个赛道，官方提供流量支持与评审反馈。</p>
+        <ul>
+          <li>赛道一：一周穿搭记录</li>
+          <li>赛道二：校服改造手作</li>
+          <li>赛道三：校园短纪录</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 作者矩阵（双列简介） ===== -->
+<section class="bx-sec" id="bx-authors" aria-labelledby="bx-authors-title">
+  <div class="bx-wrap">
+    <div class="bx-sec-head bx-anchor-offset">
+      <h2 id="bx-authors-title">创作者矩阵 · 白丝小学校服内容的中坚力量</h2>
+      <p>他们分别来自影像、设计、教育与社区一线，用不同方式讲述同一件校服。</p>
+    </div>
+    <div class="bx-author-grid">
+
+      <article class="bx-author">
+        <span class="bx-avatar a1" aria-hidden="true">林</span>
+        <div class="bx-author-info">
+          <h4>林见山 <span class="bx-role">影像导演</span></h4>
+          <p>擅长校园纪录与长镜头叙事，代表作《走廊尽头的那扇窗》。他坚持用自然光拍摄白丝小学校服，认为过度的补光会抹去校园本来的质感。拍摄前总会花半天时间坐在教室里，等孩子们忘记镜头的存在。</p>
+          <div class="bx-author-stats"><span>作品 86</span><span>粉丝 12.4 万</span><span>领域：纪录 / 访谈</span></div>
+          <button class="bx-author-more bx-author-pop" data-author="林见山">查看作者档案</button>
+        </div>
+      </article>
+
+      <article class="bx-author">
+        <span class="bx-avatar a2" aria-hidden="true">陈</span>
+        <div class="bx-author-info">
+          <h4>陈织 <span class="bx-role">服装设计顾问</span></h4>
+          <p>十年校服版型经验，负责白丝小学校服多款样衣的结构调整。镜头前的她语速不快，但每一个工艺细节都能讲清楚。她最常说的一句话是：校服不是让孩子服从，而是让孩子自在。</p>
+          <div class="bx-author-stats"><span>作品 54</span><span>粉丝 8.7 万</span><span>领域：设计 / 测评</span></div>
+          <button class="bx-author-more bx-author-pop" data-author="陈织">查看作者档案</button>
+        </div>
+      </article>
+
+      <article class="bx-author">
+        <span class="bx-avatar a3" aria-hidden="true">周</span>
+        <div class="bx-author-info">
+          <h4>周小满 <span class="bx-role">校园观察者</span></h4>
+          <p>小学语文老师出身，擅长把课堂里的细节写成温柔的影像散文。她的视频里很少有剪辑技巧，却总能让人看完。白丝小学校服在她镜头下是学生们成长的刻度，也是她自己教学生涯的注脚。</p>
+          <div class="bx-author-stats"><span>作品 112</span><span>粉丝 15.6 万</span><span>领域：亲子 / 教育</span></div>
+          <button class="bx-author-more bx-author-pop" data-author="周小满">查看作者档案</button>
+        </div>
+      </article>
+
+      <article class="bx-author">
+        <span class="bx-avatar a4" aria-hidden="true">许</span>
+        <div class="bx-author-info">
+          <h4>许一川 <span class="bx-role">街拍摄影师</span></h4>
+          <p>长期拍摄放学路上的街景，习惯用 35mm 焦距捕捉不经意的瞬间。他认为白丝小学校服在街头光线下的表现力被严重低估，于是花一个月跟拍同一条街，剪出四分钟的日常影像，获得社区广泛好评。</p>
+          <div class="bx-author-stats"><span>作品 73</span><span>粉丝 10.2 万</span><span>领域：城市 / 街拍</span></div>
+          <button class="bx-author-more bx-author-pop" data-author="许一川">查看作者档案</button>
+        </div>
+      </article>
+
+      <article class="bx-author">
+        <span class="bx-avatar a5" aria-hidden="true">沈</span>
+        <div class="bx-author-info">
+          <h4>沈知夏 <span class="bx-role">实用内容作者</span></h4>
+          <p>专注校服洗护、收纳与穿搭的实操内容，每条视频都附带清单与步骤。她的白丝小学校服保养清单被大量家长收藏，也让许多新入学家庭少走了弯路。她说，实用是最好的陪伴。</p>
+          <div class="bx-author-stats"><span>作品 97</span><span>粉丝 9.8 万</span><span>领域：技巧 / 居家</span></div>
+          <button class="bx-author-more bx-author-pop" data-author="沈知夏">查看作者档案</button>
+        </div>
+      </article>
+
+      <article class="bx-author">
+        <span class="bx-avatar a6" aria-hidden="true">罗</span>
+        <div class="bx-author-info">
+          <h4>罗青禾 <span class="bx-role">社区策展人</span></h4>
+          <p>负责平台专题的策划与串联，也是创作者开放日的常驻主持。她擅长把松散的生活素材组织成有节奏的内容序列，让白丝小学校服这一主题在社区里持续产生新故事与新讨论。</p>
+          <div class="bx-author-stats"><span>作品 61</span><span>粉丝 7.3 万</span><span>领域：策展 / 访谈</span></div>
+          <button class="bx-author-more bx-author-pop" data-author="罗青禾">查看作者档案</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 榜单 + 评价 ===== -->
+<section class="bx-sec bx-sec-alt" id="bx-rank" aria-labelledby="bx-rank-title">
+  <div class="bx-wrap">
+    <div class="bx-sec-head bx-anchor-offset">
+      <h2 id="bx-rank-title">数据榜单与社区口碑</h2>
+      <p>基于站内真实观看与互动数据整理，每两周更新一次，反映白丝小学校服相关内容的社区热度。</p>
+    </div>
+
+    <div class="bx-rank-grid">
+      <div class="bx-rank">
+        <h4>热度榜 · 近两周</h4>
+        <ol>
+          <li><span class="bx-num">1</span>走廊尽头的那扇窗：一套校服穿过的四季</li>
+          <li><span class="bx-num">2</span>放学路上的四分钟：一条街的校服记忆</li>
+          <li><span class="bx-num">3</span>面料里的答案：一间校服工坊的 72 小时</li>
+          <li><span class="bx-num">4</span>从手稿到样衣：校服设计的三次修改</li>
+          <li><span class="bx-num">5</span>六款白丝小学校服横向对照</li>
+          <li><span class="bx-num">6</span>草坪上的二十分钟</li>
+        </ol>
+      </div>
+      <div class="bx-rank">
+        <h4>新人榜 · 本月</h4>
+        <ol>
+          <li><span class="bx-num">1</span>雨天教室：把校服晾在窗边的下午</li>
+          <li><span class="bx-num">2</span>校服徽章手作：十五分钟入门</li>
+          <li><span class="bx-num">3</span>一年级的第一张合影</li>
+          <li><span class="bx-num">4</span>白丝小学校服的三种折叠方式</li>
+          <li><span class="bx-num">5</span>毕业前的最后一次晨会</li>
+          <li><span class="bx-num">6</span>书包里的校服备用件</li>
+        </ol>
+      </div>
+      <div class="bx-rank">
+        <h4>口碑榜 · 社区评分</h4>
+        <ol>
+          <li><span class="bx-num">1</span>十二年校服记忆：一位班主任的观察笔记 <b>4.9</b></li>
+          <li><span class="bx-num">2</span>换季收纳：一份校服保养的完整清单 <b>4.8</b></li>
+          <li><span class="bx-num">3</span>走廊尽头的那扇窗 <b>4.8</b></li>
+          <li><span class="bx-num">4</span>校服穿搭对照表：五个场景 <b>4.7</b></li>
+          <li><span class="bx-num">5</span>排练室的下午：校服与一首歌 <b>4.7</b></li>
+          <li><span class="bx-num">6</span>面料里的答案 <b>4.6</b></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="bx-sec-head" style="margin-top:38px;">
+      <h2>社区评价 · 来自家长、老师与创作者</h2>
+      <p>真实反馈，不做修饰。我们把它公开，作为持续改进的依据。</p>
+    </div>
+
+    <div class="bx-review-grid">
+      <article class="bx-review">
+        <div class="bx-review-head"><span class="bx-avatar a3">周</span><b>周小满</b><span>教师</span><span class="bx-stars">★★★★★</span></div>
+        <p>孩子入学第一年，我在站内把白丝小学校服的保养视频全部看完，确实少走了很久的弯路。最打动我的是这些内容不急着卖东西，而是认真讲清楚一件衣服该怎么被好好对待。</p>
+      </article>
+      <article class="bx-review">
+        <div class="bx-review-head"><span class="bx-avatar a2">杨</span><b>杨女士</b><span>二年级家长</span><span class="bx-stars">★★★★★</span></div>
+        <p>《走廊尽头的那扇窗》我看哭了。镜头特别克制，没有煽情配乐，就是把孩子们跑过走廊的声音留下来。那天晚上我陪女儿重新看了一遍，她自己也有点不好意思。</p>
+      </article>
+      <article class="bx-review">
+        <div class="bx-review-head"><span class="bx-avatar a1">吴</span><b>吴老师</b><span>班主任</span><span class="bx-stars">★★★★☆</span></div>
+        <p>内容质量整体很稳，尤其是访谈类。只有一个建议：能不能多一些低年级的适应期内容？我们班家长最焦虑的是刚入学那两个月，而这部分素材目前偏少。</p>
+      </article>
+      <article class="bx-review">
+        <div class="bx-review-head"><span class="bx-avatar a4">许</span><b>许一川</b><span>创作者</span><span class="bx-stars">★★★★★</span></div>
+        <p>作为创作者，我最认可平台对未成年人隐私的处理方式。规则写得清清楚楚，审核也真的执行。这让我愿意把更真实的街拍素材交给平台发布，而不是只挑安全的镜头。</p>
+      </article>
+      <article class="bx-review">
+        <div class="bx-review-head"><span class="bx-avatar a5">钱</span><b>钱先生</b><span>普通观众</span><span class="bx-stars">★★★★☆</span></div>
+        <p>本来只是随便点开看看，结果一口气看了半小时。白丝小学校服这个主题听起来窄，但内容意外地丰富，从面料讲到街拍，从收纳讲到访谈，节奏很舒服。</p>
+      </article>
+      <article class="bx-review">
+        <div class="bx-review-head"><span class="bx-avatar a6">罗</span><b>罗青禾</b><span>社区策展人</span><span class="bx-stars">★★★★★</span></div>
+        <p>专题企划的排期很清晰，创作者知道什么时候该投什么内容，观众也知道什么时候能等到新片。这种有节奏的运营，在校园题材里其实不多见，值得同行参考。</p>
+      </article>
+      <article class="bx-review">
+        <div class="bx-review-head"><span class="bx-avatar a2">苏</span><b>苏同学</b><span>初中生</span><span class="bx-stars">★★★★☆</span></div>
+        <p>我们班同学会一起看穿搭那期，还挺好笑的，因为大家真的会那样穿。就是希望以后能多拍点高年级的，低年级的内容对我们来说有点用不上。</p>
+      </article>
+      <article class="bx-review">
+        <div class="bx-review-head"><span class="bx-avatar a3">何</span><b>何女士</b><span>一年级家长</span><span class="bx-stars">★★★★★</span></div>
+        <p>收藏了换季收纳那期，写得非常细，连晾晒的朝向都讲了。我照着做了一遍，校服确实比之前好打理。希望以后能出可下载的清单版本，方便打印贴在洗衣机旁边。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 企业动态（时间线） ===== -->
+<section class="bx-sec" id="bx-news" aria-labelledby="bx-news-title">
+  <div class="bx-wrap">
+    <div class="bx-sec-head bx-anchor-offset">
+      <h2 id="bx-news-title">企业动态 · 官方发布与更新日志</h2>
+      <p>白丝小学校服官方网站的持续运营记录，包含内容更新、活动招募与社区规则调整。</p>
+    </div>
+    <div class="bx-timeline">
+      <div class="bx-tl-item">
+        <b>2026 / 11 / 22</b>
+        <h4>秋冬季校园影像企划上线</h4>
+        <p>首批 12 条原创高清短片正式发布，覆盖晨读、课间、放学与社团四类场景，全部为官方正版内容。</p>
+      </div>
+      <div class="bx-tl-item">
+        <b>2026 / 11 / 08</b>
+        <h4>创作者开放日第二期报名</h4>
+        <p>本期开放 30 个名额，面向社区创作者与校园影像爱好者，报名成功后参与校园拍摄工作坊。</p>
+      </div>
+      <div class="bx-tl-item">
+        <b>2026 / 10 / 26</b>
+        <h4>未成年人隐私保护规则更新</h4>
+        <p>进一步完善拍摄与发布流程，明确授权方式与模糊处理范围，由社区志愿者共同监督执行。</p>
+      </div>
+      <div class="bx-tl-item">
+        <b>2026 / 10 / 09</b>
+        <h4>校服穿搭共创挑战启动</h4>
+        <p>四大赛道同步开启，设立评审团与社区投票双重机制，优秀作品进入首页精品内容专区。</p>
+      </div>
+      <div class="bx-tl-item">
+        <b>2026 / 09 / 18</b>
+        <h4>内容日历年度排期公布</h4>
+        <p>公布下一学年的白丝小学校服主题排期，方便创作者提前规划拍摄与投稿时间。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 合作墙 ===== -->
+<section class="bx-sec bx-sec-alt" aria-labelledby="bx-partner-title">
+  <div class="bx-wrap">
+    <div class="bx-sec-head">
+      <h2 id="bx-partner-title">合作品牌 · 共同守护校园内容的品质</h2>
+      <p>我们与教育机构、制衣工坊与影像设备品牌保持长期合作，共同推动校园影像的品质标准。</p>
+    </div>
+    <div class="bx-partner-grid">
+      <div class="bx-partner">青禾制衣工坊<span>校服工艺合作</span></div>
+      <div class="bx-partner">明窗影像器材<span>拍摄设备支持</span></div>
+      <div class="bx-partner">拾光校园书店<span>线下放映场地</span></div>
+      <div class="bx-partner">南枝美术教室<span>手作课程共建</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="bx-sec" id="bx-faq" aria-labelledby="bx-faq-title">
+  <div class="bx-wrap">
+    <div class="bx-sec-head bx-anchor-offset">
+      <h2 id="bx-faq-title">常见问题 · 关于白丝小学校服内容与平台</h2>
+      <p>点击展开查看答案，如有其他问题可通过页脚联系方式与我们沟通。</p>
+    </div>
+    <div class="bx-faq">
+      <details>
+        <summary>平台上的白丝小学校服视频都是官方原创吗？</summary>
+        <p>官方企划与签约创作者的内容均为原创正版，可在站内自由观看与分享。社区投稿内容会经过授权核验与内容审核，未经授权或涉及隐私风险的素材不会发布。</p>
+      </details>
+      <details>
+        <summary>我可以用自己拍摄的校园素材投稿吗？</summary>
+        <p>可以。全年开放投稿入口，素材需为本人原创，并取得画面中相关人员的授权。涉及未成年人的内容需额外提供监护人同意说明，平台会提供标准模板。</p>
+      </details>
+      <details>
+        <summary>视频中的校服款式在哪里可以了解详情？</summary>
+        <p>站内《六款白丝小学校服横向对照》与《从手稿到样衣》两期内容对版型与工艺有详细说明，也可通过合作制衣工坊进行线下了解。</p>
+      </details>
+      <details>
+        <summary>如何参加校服穿搭共创挑战？</summary>
+        <p>在专题页点击报名入口，选择赛道并提交作品链接即可。每季度一期，评审由编辑部与社区投票共同组成，结果在活动结束后两周内公布。</p>
+      </details>
+      <details>
+        <summary>评论区的隐私规则具体是什么？</summary>
+        <p>禁止发布可识别身份的信息，禁止外貌评价与身份揣测，禁止未经同意转载画面截图。违规评论会被隐藏，多次违规将限制社区功能。</p>
+      </details>
+      <details>
+        <summary>平台是否提供内容下载？</summary>
+        <p>官方发布的部分精品内容提供高清下载，仅限个人学习与教学使用，不得用于商业用途。下载时请遵守页面标注的授权说明。</p>
+      </details>
+      <details>
+        <summary>我想联系编辑部合作，应该怎么做？</summary>
+        <p>可通过页脚提供的工作邮箱说明合作方向与机构信息，我们会在五个工作日内回复。校园机构与教育类合作优先处理。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== 页脚 ===== -->
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-footer-grid">
+      <div>
+        <div class="bx-footer-logo">
+          <span class="bx-logo-mark">白</span>
+          <span class="bx-logo-text" style="color:#f6efd9;"><b style="color:#f6efd9;">白丝小学校服</b><span style="color:#9fb2a6;">BAISI SCHOOL UNIFORM</span></span>
+        </div>
+        <p>白丝小学校服官方网站，专注校园生活影像与少年成长记录的视频品牌。我们以原创正版内容搭建高品质内容生态，持续运营、深耕垂直领域，与创作者和社区一起记录真实、温暖、有力量的日子。</p>
+        <p style="margin-top:10px;">品牌、平台、企业合作与内容授权请通过下方邮箱联系。</p>
+      </div>
+      <div>
+        <h4>内容入口</h4>
+        <ul>
+          <li><a href="#bx-focus">今日焦点</a></li>
+          <li><a href="#bx-videos">视频专区</a></li>
+          <li><a href="#bx-topics">专题企划</a></li>
+          <li><a href="#bx-authors">创作者矩阵</a></li>
+          <li><a href="#bx-rank">数据榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于与参与</h4>
+        <ul>
+          <li><a href="#bx-parse">品牌深度解析</a></li>
+          <li><a href="#bx-news">企业动态</a></li>
+          <li><a href="#bx-faq">常见问题</a></li>
+          <li><button class="bx-link-btn" id="bx-contribute-footer" style="color:#b9c8bd;">我要投稿</button></li>
+          <li><button class="bx-link-btn" id="bx-report-footer" style="color:#b9c8bd;">内容反馈</button></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <ul>
+          <li>编辑合作：editor@baisi-univ.example</li>
+          <li>内容授权：license@baisi-univ.example</li>
+          <li>投稿咨询：submit@baisi-univ.example</li>
+          <li>办公地址：青禾路 18 号校园影像中心</li>
+          <li>工作日 09:30 - 18:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bx-footer-bottom">
+      <span>© 2026 白丝小学校服官方网站 · 版权所有 · 持续运营中</span>
+      <span>校园影像内容备案号：校影备 2026-0118 号 · 内容均为原创正版</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== 回顶部 ===== -->
+<button class="bx-top-btn" id="bx-top-btn" aria-label="回到顶部">↑</button>
+
+<!-- ===== Toast ===== -->
+<div class="bx-toast" id="bx-toast" role="status" aria-live="polite"></div>
+
+<!-- ===== 通用弹窗（评论 / 投稿 / 作者 / 分享 / 反馈） ===== -->
+<div class="bx-modal-mask" id="bx-modal-mask">
+  <div class="bx-modal" role="dialog" aria-modal="true" aria-labelledby="bx-modal-title">
+    <button class="bx-close" id="bx-modal-close" aria-label="关闭弹窗">×</button>
+    <h3 id="bx-modal-title">标题</h3>
+    <div id="bx-modal-body"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 工具 ---------- */
+  var toastEl = document.getElementById('bx-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 2200);
+  }
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var nav = document.getElementById('bx-nav');
+  var navToggle = document.getElementById('bx-nav-toggle');
+  navToggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('open');
+      navToggle.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- 搜索提示 / 前端反馈 ---------- */
+  var searchInput = document.getElementById('bx-search-input');
+  var searchBtn = document.getElementById('bx-search-btn');
+  var searchFeedback = document.getElementById('bx-search-feedback');
+  var searchIndex = [
+    '走廊尽头的那扇窗','放学路上的四分钟','换季收纳','校服穿搭对照表',
+    '从手稿到样衣','十二年校服记忆','面料里的答案','草坪上的二十分钟',
+    '排练室的下午','六款白丝小学校服横向对照','校服穿搭共创挑战','创作者开放日'
+  ];
+  function doSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!q){
+      searchFeedback.textContent = '试试搜索「校服穿搭」「换季收纳」「走廊」，或直接浏览下方视频专区。';
+      searchFeedback.classList.add('show');
+      return;
+    }
+    var hits = searchIndex.filter(function(item){ return item.indexOf(q) > -1; });
+    if(hits.length){
+      searchFeedback.textContent = '找到 ' + hits.length + ' 条与「' + q + '」相关：' + hits.slice(0,4).join('、') + '。已为你定位到视频专区。';
+      searchFeedback.classList.add('show');
+      document.getElementById('bx-videos').scrollIntoView({behavior:'smooth'});
+    }else{
+      searchFeedback.textContent = '暂未找到与「' + q + '」完全匹配的内容，已推荐视频专区中的热门白丝小学校服短片供你浏览。';
+      searchFeedback.classList.add('show');
+      document.getElementById('bx-videos').scrollIntoView({behavior:'smooth'});
+    }
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  function fmt(n){
+    if(n >= 10000) return (n/10000).toFixed(1).replace(/\.0$/,'') + '万';
+    if(n >= 1000) return (n/1000).toFixed(1).replace(/\.0$/,'') + '千';
+    return String(n);
+  }
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('.bx-like');
+    if(likeBtn){
+      var base = parseInt(likeBtn.getAttribute('data-base'),10) || 0;
+      var liked = likeBtn.classList.toggle('on');
+      var val = liked ? base + 1 : base;
+      var b = likeBtn.querySelector('b');
+      if(b) b.textContent = fmt(val);
+      toast(liked ? '已点赞，感谢支持原创内容' : '已取消点赞');
+      return;
+    }
+    var heart = e.target.closest('.bx-heart');
+    if(heart){
+      var on = heart.classList.toggle('on');
+      heart.innerHTML = on ? '♥ 已收藏' : '♡ 收藏';
+      toast(on ? '已加入收藏，可在个人中心查看' : '已取消收藏');
+      return;
+    }
+  });
+
+  /* ---------- 弹窗 ---------- */
+  var mask = document.getElementById('bx-modal-mask');
+  var modalTitle = document.getElementById('bx-modal-title');
+  var modalBody = document.getElementById('bx-modal-body');
+  function openModal(title, html){
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    mask.classList.add('show');
+  }
+  function closeModal(){ mask.classList.remove('show'); }
+  document.getElementById('bx-modal-close').addEventListener('click', closeModal);
+  mask.addEventListener('click', function(e){ if(e.target === mask) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  /* 评论弹窗 */
+  document.addEventListener('click', function(e){
+    var c = e.target.closest('.bx-comment');
+    if(c){
+      var t = c.getAttribute('data-target') || '内容';
+      openModal('评论 · ' + t,
+        '<p>欢迎留下你的观看感受。评论需遵守社区规则，不发布可识别身份的信息，不进行外貌评价。</p>' +
+        '<div class="bx-field"><label>你的昵称</label><input type="text" placeholder="例如：校园影像爱好者" maxlength="20"></div>' +
+        '<div class="bx-field"><label>评论内容</label><textarea rows="4" placeholder="说说这条白丝小学校服视频最打动你的地方"></textarea></div>' +
+        '<div style="margin-top:16px;display:flex;gap:10px;"><button class="bx-btn bx-btn-primary" id="bx-comment-submit">提交评论</button><button class="bx-btn bx-btn-ghost" id="bx-comment-cancel">取消</button></div>'
+      );
+      document.getElementById('bx-comment-submit').addEventListener('click', function(){ closeModal(); toast('评论已提交，审核通过后展示'); });
+      document.getElementById('bx-comment-cancel').addEventListener('click', closeModal);
+      return;
+    }
+
+    /* 作者弹窗 */
+    var a = e.target.closest('.bx-author-pop');
+    if(a){
+      var name = a.getAttribute('data-author');
+      openModal('创作者档案 · ' + name,
+        '<p>这是 ' + name + ' 在平台的公开档案摘要。该创作者长期参与白丝小学校服主题内容创作，作品以真实、克制、细节丰富见称。</p>' +
+        '<div class="bx-field"><label>擅长方向</label><p>校园纪录、访谈、实用技巧</p></div>' +
+        '<div class="bx-field"><label>合作方式</label><p>可通过页脚编辑合作邮箱转达，平台会协助对接。</p></div>' +
+        '<div style="margin-top:16px;"><button class="bx-btn bx-btn-primary" id="bx-author-close">知道了</button></div>'
+      );
+      document.getElementById('bx-author-close').addEventListener('click', closeModal);
+      return;
+    }
+  });
+
+  /* 复制链接（Clipboard API + 降级） */
+  function copyLink(target){
+    var text = '白丝小学校服官方网站 · ' + target;
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ toast('链接信息已复制'); }).catch(fallbackCopy);
+    }else{
+      fallbackCopy();
+    }
+    function fallbackCopy(){
+      try{
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        toast('链接信息已复制');
+      }catch(err){
+        toast('复制未成功，请手动记录标题');
+      }
+    }
+  }
+  document.addEventListener('click', function(e){
+    var cp = e.target.closest('.bx-copy');
+    if(cp){
+      copyLink(cp.getAttribute('data-target') || '白丝小学校服内容');
+    }
+  });
+
+  /* 分享弹窗 */
+  function openShare(){
+    openModal('分享白丝小学校服官方网站',
+      '<p>选择你常用的方式分享给朋友。分享内容均为原创正版，欢迎在合规范围内传播。</p>' +
+      '<div class="bx-share-row">' +
+        '<button data-share="微信">微信</button>' +
+        '<button data-share="微博">微博</button>' +
+        '<button data-share="QQ">QQ</button>' +
+        '<button data-share="复制链接">复制链接</button>' +
+      '</div>'
+    );
+    Array.prototype.forEach.call(modalBody.querySelectorAll('[data-share]'), function(btn){
+      btn.addEventListener('click', function(){
+        var mode = btn.getAttribute('data-share');
+        if(mode === '复制链接'){ copyLink('首页'); }
+        else{ toast('已生成' + mode + '分享提示'); }
+        closeModal();
+      });
+    });
+  }
+  document.getElementById('bx-share-hero').addEventListener('click', openShare);
+
+  /* 投稿弹窗 */
+  function openContribute(){
+    openModal('投稿入口 · 加入白丝小学校服内容社区',
+      '<p>全年开放投稿。请确保素材为本人原创，并取得画面中相关人员授权，涉及未成年人需监护人同意。</p>' +
+      '<div class="bx-field"><label>作品标题</label><input type="text" placeholder="例如：校服换季收纳的七个步骤" maxlength="40"></div>' +
+      '<div class="bx-field"><label>赛道</label><input type="text" placeholder="穿搭 / 纪录 / 访谈 / 手作"></div>' +
+      '<div class="bx-field"><label>联系方式</label><input type="text" placeholder="邮箱或社交账号"></div>' +
+      '<div style="margin-top:16px;"><button class="bx-btn bx-btn-primary" id="bx-submit-apply">提交投稿意向</button></div>'
+    );
+    document.getElementById('bx-submit-apply').addEventListener('click', function(){ closeModal(); toast('投稿意向已记录，编辑部将尽快联系你'); });
+  }
+  ['bx-contribute-top','bx-contribute-hero','bx-contribute-footer'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) el.addEventListener('click', openContribute);
+  });
+
+  /* 反馈弹窗 */
+  var reportBtn = document.getElementById('bx-report-footer');
+  if(reportBtn){
+    reportBtn.addEventListener('click', function(){
+      openModal('内容反馈 · 帮助我们做得更好',
+        '<p>如发现内容问题或隐私风险，请在此说明。我们会在核实后处理。</p>' +
+        '<div class="bx-field"><label>反馈类型</label><input type="text" placeholder="隐私 / 版权 / 内容质量"></div>' +
+        '<div class="bx-field"><label>具体说明</label><textarea rows="3" placeholder="请描述具体位置与问题"></textarea></div>' +
+        '<div style="margin-top:16px;"><button class="bx-btn bx-btn-primary" id="bx-report-submit">提交反馈</button></div>'
+      );
+      document.getElementById('bx-report-submit').addEventListener('click', function(){ closeModal(); toast('反馈已提交，感谢你守护社区品质'); });
+    });
+  }
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById('bx-top-btn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('show'); }
+    else{ topBtn.classList.remove('show'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+})();
+</script>
+</body>
+  </html>
